@@ -1,5 +1,0 @@
-# Kaggle TPU images already ship jax[tpu]; only optax is usually missing.
-numpy
-optax>=0.2.0
-jax[tpu]>=0.4.35   # on Kaggle/Colab TPU: keep the preinstalled version; the first report used jax 0.11.2
-# pytest           # optional: `pytest -q tests`  (GDN3_BACKEND=serial|pallas|serial,pallas)
