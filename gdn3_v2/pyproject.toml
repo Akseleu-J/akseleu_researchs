@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gdn3-v2"
+version = "0.3.0"
+description = "GDN-3: causal streaming recurrent language model with hierarchical memory"
+requires-python = ">=3.11"
+dependencies = ["numpy>=2.0,<3", "jax>=0.4.38,<0.10", "optax>=0.2.4,<0.3"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[project.scripts]
+gdn3 = "gdn3.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["gdn3*", "reference*", "bench*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["tpu: requires an actual TPU", "slow: long context or numerical gradient checks"]

@@ -1,0 +1,25 @@
+{
+  "model": {
+    "vocab": 256,
+    "d_model": 128,
+    "n_heads": 4,
+    "d_key": 32,
+    "d_value": 32,
+    "n_layers": 2
+  },
+  "training": {
+    "steps": 1000,
+    "batch_size": 16,
+    "sequence_length": 512,
+    "learning_rate": 0.0003,
+    "min_learning_rate": 0.00003,
+    "warmup_steps": 100,
+    "weight_decay": 0.1,
+    "clip_norm": 1,
+    "ema_decay": 0.999,
+    "seed": 0,
+    "remat": false,
+    "mode": "full_bptt",
+    "save_every": 100
+  }
+}
