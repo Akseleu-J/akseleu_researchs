@@ -1,0 +1,524 @@
+{
+  "date": "2026-10-09",
+  "method": "static audit; no imports, tests, training or benchmarks executed",
+  "roots": {
+    "kit": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit",
+    "full": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/_zip_inspect/gdn3_full",
+    "atomic": "C:/Users/omirb/Downloads/Downloads/atomic_ops/pkg/atomic_gdn2"
+  },
+  "files": [
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/bench/archive_policy.py",
+      "bytes": 2943,
+      "sha256": "710a06e6023a2bce197de8896bfac80af2ff49d4011e4b2cda7c294ada1e9691"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/bench/lm_position.py",
+      "bytes": 3503,
+      "sha256": "88972e7e43c9868f8e6cf68f3bb30756fc023ce31e214ad0cac26cfb4a858e2b"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/bench/mqar_capacity.py",
+      "bytes": 3665,
+      "sha256": "ee502ba47d0c52781d1d0c4885a5b594d0660d6b5203eb3838dc13912e73f746"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/bench/speed.py",
+      "bytes": 3875,
+      "sha256": "e213ae4e9ea436f12faab50032f0b37105d787a950b68679d3631d59e320f8b4"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/bench/_common.py",
+      "bytes": 2141,
+      "sha256": "737355186b4f1a9eec8a69c19ec2be9d604688197477ea58d9a64d0fbf378c82"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/docs/DESIGN.md",
+      "bytes": 20785,
+      "sha256": "d9cc7f9af272a42c9a0ffdaaeea52c8cf3aa4366a5b78b5b7e3abfffb79fffb8"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/docs/KAGGLE.md",
+      "bytes": 4350,
+      "sha256": "cbb52eb692b71cc206d25546785aca6df5cda0572f941411712e50f881d85566"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/gdn3/backend.py",
+      "bytes": 3034,
+      "sha256": "a88597b8708f6ecaef7a305663fea8d3dee1c85b3f62d6cf7296233ec4a76adf"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/gdn3/cache.py",
+      "bytes": 10546,
+      "sha256": "83a6efa2266bf77d9d2cd227fc87e980ec3d167fb21b25ec7efd3a2eaeb27c3e"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/gdn3/cli.py",
+      "bytes": 5578,
+      "sha256": "3265ccea3c13024495a3c7db0113bba3726108b19dba7ec87c5953a3bcf5c000"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/gdn3/config.py",
+      "bytes": 5268,
+      "sha256": "61d2dc8d7c0ccce005282c514d8084adf7f11d5f0a31f98bdace0e82d5bc6752"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/gdn3/env.py",
+      "bytes": 1924,
+      "sha256": "65e54d221e6a5516b0f2b99842b68b01425241711bf2b1cd7ada709205d3e418"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/gdn3/evaluate.py",
+      "bytes": 3043,
+      "sha256": "20ffc6bb2711c9d085eabb7fe214ad2502888aaa6a322d19265b77d84703fc5c"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/gdn3/mixer.py",
+      "bytes": 5441,
+      "sha256": "bb5ce9df73574bb24b7ce63dcc71b992d221f0573db706199a7b7cce4cba939a"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/gdn3/model.py",
+      "bytes": 5130,
+      "sha256": "3f623d07b4cfaaa4632c2e83627bf5e42909235aa274ed36a38bee60c0ae9809"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/gdn3/read.py",
+      "bytes": 3369,
+      "sha256": "b263d52729a510fa8667ccf9956d5df59a24e40bcaf283ea10158b84bed742cd"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/gdn3/routing.py",
+      "bytes": 2390,
+      "sha256": "6d9b9dc78867859adbcee769985021426da73c336329a9411c8c28503914e2f8"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/gdn3/segments.py",
+      "bytes": 3244,
+      "sha256": "79cb8c355ecee39fb5dc461bcde2bd06df4d70443f8426057bfe8f4e1dfeaf11"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/gdn3/tasks.py",
+      "bytes": 4554,
+      "sha256": "6cc8d4f3bd1918cd42206d868188367b79f8fb708ccbc1291f2da97b3a902d20"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/gdn3/train.py",
+      "bytes": 5124,
+      "sha256": "9ab945d317ab704eaa4d21cee0d02e115e61235957a5cb78bca818ec4db44ab1"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/gdn3/__init__.py",
+      "bytes": 166,
+      "sha256": "03abd2a8a6b9c2273f6e8a8492c9085fe22f8ff8e4ca3b62ce6b2a557159b9ac"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/kaggle/gdn3_kaggle.ipynb",
+      "bytes": 3029,
+      "sha256": "1150cbbc02e5f2e2a6880e9cf4449d2a6173c6a16b8ef03db01b6874e62674a1"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/kaggle/run_all.py",
+      "bytes": 4713,
+      "sha256": "08ad0538fb437f18a94886703f489773d6533920947596eeee20dcc903f175af"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/kaggle/setup.sh",
+      "bytes": 447,
+      "sha256": "eb859960c8816ddf393d70c8bf8877e588247522a25ff8bb6330ed3ba0ee62b0"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/README.md",
+      "bytes": 2308,
+      "sha256": "b3868ebccba40ca4a71e85831dddb2bc1dfc3953feee9c752ea7ee647ae86381"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/requirements.txt",
+      "bytes": 292,
+      "sha256": "a0e43f66f802374391f6ab601d6417fffb6fa0727def5b9cca51f3f77ae964b7"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/sim/namecheck.py",
+      "bytes": 1450,
+      "sha256": "c23698b7a0d032c54d19718ff538f019a43b38eb6f434e17859372d889f49ea3"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/sim/router_sim.py",
+      "bytes": 1943,
+      "sha256": "26680838c025f5cc8ce78bb039a2a0a9b6e8ad2ae97e15a989103edc3ff92090"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/sim/stream_check.py",
+      "bytes": 1407,
+      "sha256": "ffb3760c60ff90abdf405217c043fe6084b220e9c46986a7fff165434fd2a9bf"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/tests/conftest.py",
+      "bytes": 179,
+      "sha256": "e66adb22d442d4fae82258e8b5f7989c35016bcc3d235511981c92df4f8c6748"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/tests/run.py",
+      "bytes": 1829,
+      "sha256": "154248f49d42758faa3c267bef617124545fb67a1abaec9ad8fa85c78698fe55"
+    },
+    {
+      "snapshot": "kit",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/tests/test_gdn3.py",
+      "bytes": 17360,
+      "sha256": "c331557c36ca5648cf90d722844d7bb5df161b51e11dae25ce17c57aaf9f8067"
+    },
+    {
+      "snapshot": "full",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/_zip_inspect/gdn3_full/bench/archive_policy.py",
+      "bytes": 2148,
+      "sha256": "31588a4703453cf969260d67b46b475afb0280530033e011a5ea0df933ac3c08"
+    },
+    {
+      "snapshot": "full",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/_zip_inspect/gdn3_full/bench/lm_position.py",
+      "bytes": 2359,
+      "sha256": "76f8307de2ddc0cb968dda240050dd0f08e49c0b8949613712d77da8114c694c"
+    },
+    {
+      "snapshot": "full",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/_zip_inspect/gdn3_full/bench/mqar_capacity.py",
+      "bytes": 5228,
+      "sha256": "2c5fe0c838dd34a5991b796949196aebf5d8f3dcae39d47c435e875676e8cb85"
+    },
+    {
+      "snapshot": "full",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/_zip_inspect/gdn3_full/bench/speed.py",
+      "bytes": 2750,
+      "sha256": "455ced599cd28e8eed45459750a0b0141bacce99a2670f58bf2d568de289a68c"
+    },
+    {
+      "snapshot": "full",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/_zip_inspect/gdn3_full/bench/_common.py",
+      "bytes": 1723,
+      "sha256": "897797f6c6a6372e28c98c077c4cf8b685559e0559d56078f560f941b27192a7"
+    },
+    {
+      "snapshot": "full",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/_zip_inspect/gdn3_full/docs/STATUS.md",
+      "bytes": 9599,
+      "sha256": "1ff6fe3aba16441ba5bf07c4705ba12950ce85b3240edf764bdb25b682766cd0"
+    },
+    {
+      "snapshot": "full",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/_zip_inspect/gdn3_full/gdn3/archive.py",
+      "bytes": 7616,
+      "sha256": "dfec228a09e24a4fabae23aa61c1eb2106a4c82e28a7a4e12b77c9737ebc01b5"
+    },
+    {
+      "snapshot": "full",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/_zip_inspect/gdn3_full/gdn3/backend.py",
+      "bytes": 2213,
+      "sha256": "8a29b57bfb82499825e09ca7e19bd6207f2e14c054d024ab08f2a8bb1c5e22bb"
+    },
+    {
+      "snapshot": "full",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/_zip_inspect/gdn3_full/gdn3/config.py",
+      "bytes": 7151,
+      "sha256": "af38c17e8d7616efee1ade1249b48045612eced38f34147eb1f1cab1c553c455"
+    },
+    {
+      "snapshot": "full",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/_zip_inspect/gdn3_full/gdn3/env.py",
+      "bytes": 1418,
+      "sha256": "9308829b8c5ff328e489d83541dca8766d14b2938598b7fb0cff85be10b15d29"
+    },
+    {
+      "snapshot": "full",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/_zip_inspect/gdn3_full/gdn3/evaluate.py",
+      "bytes": 2965,
+      "sha256": "b6bd9ed3d52e0fba46ed42297c234e0de13632830999e58bd8a559d90451a26f"
+    },
+    {
+      "snapshot": "full",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/_zip_inspect/gdn3_full/gdn3/fenwick.py",
+      "bytes": 2951,
+      "sha256": "3d2772827eb96fcf2503fe3bedc61d6af5ac15719e74dcdddb8012fad38a2788"
+    },
+    {
+      "snapshot": "full",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/_zip_inspect/gdn3_full/gdn3/layer.py",
+      "bytes": 8792,
+      "sha256": "32bdbe86c212afa9cba301a624e88bee9cf43fff84667e883c3fecadd7952175"
+    },
+    {
+      "snapshot": "full",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/_zip_inspect/gdn3_full/gdn3/mixer.py",
+      "bytes": 11070,
+      "sha256": "dc989ecfd147de6a7efd135bb0668415b0a8d05bb23cb0d2caaec9e85567e4ae"
+    },
+    {
+      "snapshot": "full",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/_zip_inspect/gdn3_full/gdn3/model.py",
+      "bytes": 5763,
+      "sha256": "6a4b7d87990d3c7c2c7dae6ee14b690099a05e348c2905b8ea57af05ae964f96"
+    },
+    {
+      "snapshot": "full",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/_zip_inspect/gdn3_full/gdn3/ops.py",
+      "bytes": 12760,
+      "sha256": "cd9844e3c42d85dbf7ea5998759be9c9616b7f6db0eefdbc3305d17c26a59916"
+    },
+    {
+      "snapshot": "full",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/_zip_inspect/gdn3_full/gdn3/routing.py",
+      "bytes": 2630,
+      "sha256": "977b874f588ea45d8a997368c0a300e3a5d03a6184d348b24edc3fd0a50432f2"
+    },
+    {
+      "snapshot": "full",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/_zip_inspect/gdn3_full/gdn3/tasks.py",
+      "bytes": 4240,
+      "sha256": "450ebacab4692b165b539a8e3fe0c0e6b2cf80448ff7b64d2e91fb0beb21f6e0"
+    },
+    {
+      "snapshot": "full",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/_zip_inspect/gdn3_full/gdn3/train.py",
+      "bytes": 5000,
+      "sha256": "84d17d0cf06c8f846a6c5bc9d2763228baa48e0628b02e03eaa41378270f9363"
+    },
+    {
+      "snapshot": "full",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/_zip_inspect/gdn3_full/gdn3/__init__.py",
+      "bytes": 199,
+      "sha256": "4f5e307e34e4b685de127e6f55ad617f8f69b5300427ac7ba6920f717c0f9a0b"
+    },
+    {
+      "snapshot": "full",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/_zip_inspect/gdn3_full/kaggle/run_all.py",
+      "bytes": 2038,
+      "sha256": "839cc9bbeb4fae0d857f7fcc82d50049ba8cded537110125996fae0ad600c34a"
+    },
+    {
+      "snapshot": "full",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/_zip_inspect/gdn3_full/README.md",
+      "bytes": 1014,
+      "sha256": "b4e132560141e43687253664af6e0bfe3abbbfb5bd7bb4e4833db9b81be90e4b"
+    },
+    {
+      "snapshot": "full",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/_zip_inspect/gdn3_full/requirements.txt",
+      "bytes": 117,
+      "sha256": "699951d061811a8b1b55c5322b1e3916da9c2ca51ecdad82225237e38400d309"
+    },
+    {
+      "snapshot": "full",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/_zip_inspect/gdn3_full/tests/run.py",
+      "bytes": 1155,
+      "sha256": "eac20cac39c8d2a82bcef7fa3ccea439c05265b1892dce4d49f9b6cf6da74729"
+    },
+    {
+      "snapshot": "full",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/_zip_inspect/gdn3_full/tests/test_fenwick.py",
+      "bytes": 1801,
+      "sha256": "5bd9abc87610b455f955c7ba31a04297a0111732c62b1aa4fb78532c6360c90d"
+    },
+    {
+      "snapshot": "full",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/_zip_inspect/gdn3_full/tests/test_gdn3.py",
+      "bytes": 28090,
+      "sha256": "bf15c655e03aa40ad692e4588f3d0abc22abf133bb3f8315ec0cc69f1d59bd48"
+    },
+    {
+      "snapshot": "full",
+      "path": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/_zip_inspect/gdn3_full/tests/test_pallas.py",
+      "bytes": 1751,
+      "sha256": "03f0e2b6cf3c18a1986dd7e3d851f0cfc7d9af863dc3cf468ae8fb437a225a0f"
+    },
+    {
+      "snapshot": "atomic",
+      "path": "C:/Users/omirb/Downloads/Downloads/atomic_ops/pkg/atomic_gdn2/bwd/b4.py",
+      "bytes": 4944,
+      "sha256": "46f16bf7106a503c4b74536eeb4cb67cdf637f0eb738e15524cc5d39a5abd20e"
+    },
+    {
+      "snapshot": "atomic",
+      "path": "C:/Users/omirb/Downloads/Downloads/atomic_ops/pkg/atomic_gdn2/bwd/mega.py",
+      "bytes": 4225,
+      "sha256": "808393a60a4278a3dc9f21374932434346ed6f862d61052e1e754b76648c605c"
+    },
+    {
+      "snapshot": "atomic",
+      "path": "C:/Users/omirb/Downloads/Downloads/atomic_ops/pkg/atomic_gdn2/bwd/__init__.py",
+      "bytes": 61,
+      "sha256": "ebcdf69182f0a89a2227b1256cf3d9c011cb5ee04f486be9cf79a93c1e24a24a"
+    },
+    {
+      "snapshot": "atomic",
+      "path": "C:/Users/omirb/Downloads/Downloads/atomic_ops/pkg/atomic_gdn2/config.py",
+      "bytes": 3084,
+      "sha256": "5d1a600ad46a22f6d9a116ebac42beef17fcad537513f680ec9a88acebb720af"
+    },
+    {
+      "snapshot": "atomic",
+      "path": "C:/Users/omirb/Downloads/Downloads/atomic_ops/pkg/atomic_gdn2/domain.py",
+      "bytes": 2095,
+      "sha256": "34e88f51c9444b82b44b083a15f9dec46450c90b0beb9c49b992363cdd924ced"
+    },
+    {
+      "snapshot": "atomic",
+      "path": "C:/Users/omirb/Downloads/Downloads/atomic_ops/pkg/atomic_gdn2/experimental/README.md",
+      "bytes": 371,
+      "sha256": "00e7d4b3ada09bc803f087f079747b0b494da17a7c0241eb8ea99a27b1d152ed"
+    },
+    {
+      "snapshot": "atomic",
+      "path": "C:/Users/omirb/Downloads/Downloads/atomic_ops/pkg/atomic_gdn2/experimental/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "snapshot": "atomic",
+      "path": "C:/Users/omirb/Downloads/Downloads/atomic_ops/pkg/atomic_gdn2/fwd/cd_slim.py",
+      "bytes": 2718,
+      "sha256": "d6dc8c1263ee9b640dc6e824dc411b46c9b771045ed5022e5a33ae2a8307b15b"
+    },
+    {
+      "snapshot": "atomic",
+      "path": "C:/Users/omirb/Downloads/Downloads/atomic_ops/pkg/atomic_gdn2/fwd/scores.py",
+      "bytes": 4255,
+      "sha256": "23d9db95633fd04bfae1ac162537bafe4ca5c180d74336da82eb948c69b7d728"
+    },
+    {
+      "snapshot": "atomic",
+      "path": "C:/Users/omirb/Downloads/Downloads/atomic_ops/pkg/atomic_gdn2/fwd/solve.py",
+      "bytes": 2459,
+      "sha256": "19b91ebbef82c2cd9d443d41b7a75ef6d7e82bbbd0dc925814c7a3d88413ede8"
+    },
+    {
+      "snapshot": "atomic",
+      "path": "C:/Users/omirb/Downloads/Downloads/atomic_ops/pkg/atomic_gdn2/fwd/__init__.py",
+      "bytes": 146,
+      "sha256": "f2b5315ff0c53b69b6fdc1ac35b39f5d3f0539ffa3a0cefd1195c8b49702889e"
+    },
+    {
+      "snapshot": "atomic",
+      "path": "C:/Users/omirb/Downloads/Downloads/atomic_ops/pkg/atomic_gdn2/layer.py",
+      "bytes": 2358,
+      "sha256": "6b18e1b925faa7664bc2fffcab4efab7c3b059b06f10aa7887518ed86566b112"
+    },
+    {
+      "snapshot": "atomic",
+      "path": "C:/Users/omirb/Downloads/Downloads/atomic_ops/pkg/atomic_gdn2/layout.py",
+      "bytes": 761,
+      "sha256": "0df9dedbacdfab9c354ca6c95aba09e7df495d800388b5f2d9ddb5dc11f6769c"
+    },
+    {
+      "snapshot": "atomic",
+      "path": "C:/Users/omirb/Downloads/Downloads/atomic_ops/pkg/atomic_gdn2/pipeline.py",
+      "bytes": 2894,
+      "sha256": "e7169d3f6d3ce2ed72fd14b25db1068aed2e8dce01c121a96ce35798e76297cf"
+    },
+    {
+      "snapshot": "atomic",
+      "path": "C:/Users/omirb/Downloads/Downloads/atomic_ops/pkg/atomic_gdn2/precision.py",
+      "bytes": 1685,
+      "sha256": "4bfd3485e20f9b1091a76f8bbcb2a98ef07fda3ba36151e18cda26350b140cc4"
+    },
+    {
+      "snapshot": "atomic",
+      "path": "C:/Users/omirb/Downloads/Downloads/atomic_ops/pkg/atomic_gdn2/reference/ref.py",
+      "bytes": 7432,
+      "sha256": "736cfb4a82844a3eb6cdd9347f0c9315f69881cc6b23b44ef4259042de447eec"
+    },
+    {
+      "snapshot": "atomic",
+      "path": "C:/Users/omirb/Downloads/Downloads/atomic_ops/pkg/atomic_gdn2/reference/__init__.py",
+      "bytes": 190,
+      "sha256": "7db881db3e8b52992ce3c9f7ab1568992aa649f3637c622ff76c9fec9f83106d"
+    },
+    {
+      "snapshot": "atomic",
+      "path": "C:/Users/omirb/Downloads/Downloads/atomic_ops/pkg/atomic_gdn2/training/canary.py",
+      "bytes": 1183,
+      "sha256": "f634a11102602076ce12b17da3688fc7280d0f04dcb5848121b8ab086ed2a154"
+    },
+    {
+      "snapshot": "atomic",
+      "path": "C:/Users/omirb/Downloads/Downloads/atomic_ops/pkg/atomic_gdn2/training/data.py",
+      "bytes": 1026,
+      "sha256": "acea643b2180e411308b6a8a6c5fe4e411f8efd8d3ed368d06f613c5e8139520"
+    },
+    {
+      "snapshot": "atomic",
+      "path": "C:/Users/omirb/Downloads/Downloads/atomic_ops/pkg/atomic_gdn2/training/model.py",
+      "bytes": 1025,
+      "sha256": "2075623b09a2462ab24e62dc6acd84926ee505b4b797dfb1f459a827e1a3dfd7"
+    },
+    {
+      "snapshot": "atomic",
+      "path": "C:/Users/omirb/Downloads/Downloads/atomic_ops/pkg/atomic_gdn2/training/train.py",
+      "bytes": 3664,
+      "sha256": "00749c871fb6a9d8bbe0f436d456c2a65350de237f2f8d00de59b972e64fc3df"
+    },
+    {
+      "snapshot": "atomic",
+      "path": "C:/Users/omirb/Downloads/Downloads/atomic_ops/pkg/atomic_gdn2/training/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "snapshot": "atomic",
+      "path": "C:/Users/omirb/Downloads/Downloads/atomic_ops/pkg/atomic_gdn2/__init__.py",
+      "bytes": 241,
+      "sha256": "7d538f7e12bcc65b9cf80cb74de8096acb7ab8c06d6d0afc25465127b92513d8"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "C:/Users/omirb/Downloads/gdn3_full (1).zip",
+      "bytes": 57494,
+      "sha256": "3bad77a2be5b44d6c841ebd8ab450bc96a2dc75ed8c883c6e6b1455c7cc7f4a2"
+    },
+    {
+      "path": "C:/Users/omirb/Downloads/STATUS.md",
+      "bytes": 18306,
+      "sha256": "197c22f7e62cf59eb85e0c5fd99f9fd166fb2047ac30d1558814b6b5ac10c26b"
+    },
+    {
+      "path": "C:/Users/omirb/.codex/attachments/95779bb8-fc98-49ea-84dd-db19bfecfffc/Вставленный текст.txt",
+      "bytes": 32071,
+      "sha256": "52827af81f28985b6c1ecbaabc4c7c4ef54410ff04b283509cca669b270c685e"
+    }
+  ],
+  "archive_integrity": {
+    "file_entries_checked": 27,
+    "issues": []
+  }
+}

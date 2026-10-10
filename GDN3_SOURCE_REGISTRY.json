@@ -1,0 +1,186 @@
+{
+  "checked_at": "2026-10-09",
+  "method": "primary-source document review; no code reproduction",
+  "modules": [
+    {
+      "id": "A1",
+      "title": "Gated DeltaNet-2: Decoupling Erase and Write in Linear Attention",
+      "version": "2605.22791v1",
+      "url": "https://arxiv.org/html/2605.22791v1",
+      "scope": "baseline",
+      "contract": "Раздельные vector erase/write gates; Eq.10. Базовая recurrence и точка сравнения.",
+      "author_repository": null
+    },
+    {
+      "id": "A2",
+      "title": "Kimi Linear: An Expressive, Efficient Attention Architecture",
+      "version": "2510.26692v2",
+      "url": "https://arxiv.org/html/2510.26692v2",
+      "scope": "core",
+      "contract": "KDA: channel-wise decay. Результаты гибрида KDA+MLA нельзя переносить на весь GDN-3.",
+      "author_repository": null
+    },
+    {
+      "id": "A3",
+      "title": "The Query Knows What to Forget: A Second Erase Direction for Linear Attention",
+      "version": "2608.13668v1",
+      "url": "https://arxiv.org/html/2608.13668v1",
+      "scope": "core",
+      "contract": "Eq.6: один asymmetric erase address с ортогональной query-компонентой. Два последовательных erase не эквивалентны.",
+      "author_repository": null
+    },
+    {
+      "id": "A11",
+      "title": "Erase-then-Delta Attention: Decoupling Erase and Write Addresses in Delta-Rule Linear Attention",
+      "version": "2606.26560v1",
+      "url": "https://arxiv.org/html/2606.26560v1",
+      "scope": "core",
+      "contract": "Отдельный erase address, затем delta write. Перенос на vector b/w требует отдельного определения.",
+      "author_repository": null
+    },
+    {
+      "id": "A4",
+      "title": "DeltaProduct: Improving State-Tracking in Linear RNNs via Householder Products",
+      "version": "2502.10297v7",
+      "url": "https://arxiv.org/html/2502.10297v7",
+      "scope": "core",
+      "contract": "Несколько последовательных Householder/delta шагов; scalar-paper и generalized GDN-2 варианты разделяются.",
+      "author_repository": null
+    },
+    {
+      "id": "A5",
+      "title": "OSDN: Improving Delta Rule with Provable Online Preconditioning in Linear Attention",
+      "version": "2605.13473v1",
+      "url": "https://arxiv.org/html/2605.13473v1",
+      "scope": "core",
+      "contract": "Write-side diagonal preconditioner, closed-form hypergradient и box projection. Heuristic по h/v не является OSDN.",
+      "author_repository": null
+    },
+    {
+      "id": "B1",
+      "title": "Dynamic Linear Attention",
+      "version": "2606.10650v1",
+      "url": "https://arxiv.org/html/2606.10650v1",
+      "scope": "core",
+      "contract": "Eq.13: state information variation; Eq.16: adjacent minimum information-density merge. GDN-2 bank adaptation — вариант проекта.",
+      "author_repository": null
+    },
+    {
+      "id": "B2",
+      "title": "Log-Linear Attention",
+      "version": "2506.04761v3",
+      "url": "https://arxiv.org/html/2506.04761v3",
+      "scope": "core",
+      "contract": "O(log T) live decoding states; recurrent GDN extension учитывает transitions. Исторический Fenwick с O(T) узлами не даёт этот bound.",
+      "author_repository": "https://github.com/HanGuo97/log-linear-attention"
+    },
+    {
+      "id": "B4",
+      "title": "Scaling Linear Attention with Sparse State Expansion",
+      "version": "2507.16577v2",
+      "url": "https://arxiv.org/html/2507.16577v2",
+      "scope": "core",
+      "contract": "Sparse writes и expanded partitions, shared partition и write/read gates. Eq.13 сохраняет невыбранные partitions без decay; row top-k read недостаточен.",
+      "author_repository": null
+    },
+    {
+      "id": "B5",
+      "title": "Sparse Delta Memory: Scaling the State of Linear RNNs through Sparsity",
+      "version": "2607.07386v1",
+      "url": "https://arxiv.org/html/2607.07386v1",
+      "scope": "core",
+      "contract": "Источник learned initial state; полный SDM также содержит sparse product-key memory. B5 заимствует только h_init.",
+      "author_repository": "https://github.com/facebookresearch/sparse-delta-memory"
+    },
+    {
+      "id": "B6",
+      "title": "Post-bank decay: локальный контракт GDN-3",
+      "version": "local-design",
+      "url": "C:/Users/omirb/Downloads/Downloads/gdn3_kit/gdn3_kit/docs/DESIGN.md",
+      "scope": "core",
+      "contract": "Внешней статьи нет. Frozen и passive-decay-aligned банки — разные допустимые режимы. Решение задаётся спецификацией v2.",
+      "author_repository": null
+    },
+    {
+      "id": "B8",
+      "title": "A Hippocampus for Linear Attention: An Exact Memory for What the Recurrent State Forgets",
+      "version": "2607.02303v1",
+      "url": "https://arxiv.org/html/2607.02303v1",
+      "scope": "core",
+      "contract": "Top-w по surprise β||residual||; cache-path RMSNorm, causal block и null sink. Сохранённые KV точны, выбор ограничен capacity.",
+      "author_repository": "https://github.com/scale-lab-ai/HOLA"
+    },
+    {
+      "id": "B12",
+      "title": "Adaptive Memory Decay for Log-Linear Attention",
+      "version": "2605.06946v1",
+      "url": "https://arxiv.org/html/2605.06946v1",
+      "scope": "core",
+      "contract": "Eq.4: двухслойная level-axis MLP + softplus. Eq.4 и описание GELU в эксперименте расходятся: два именованных варианта.",
+      "author_repository": null
+    },
+    {
+      "id": "C1",
+      "title": "Don't Read Everything: A Curvature-Conditioned Query for Linear Attention",
+      "version": "2606.01294v2",
+      "url": "https://arxiv.org/html/2606.01294v2",
+      "scope": "core",
+      "contract": "Centered running key covariance; q_clean=(I−λΣ)q. Population denominator n, причинные ключи до текущего включительно.",
+      "author_repository": null
+    },
+    {
+      "id": "D1",
+      "title": "LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization",
+      "version": "2609.38166v1",
+      "url": "https://arxiv.org/html/2609.38166v1",
+      "scope": "core",
+      "contract": "Training-free recurrent-state windows; low-rank compensation до residual quantization; full-precision window updates.",
+      "author_repository": null
+    },
+    {
+      "id": "D2",
+      "title": "OjaKV: Context-Aware Online Low-Rank KV Cache Compression",
+      "version": "2026.findings-acl.494",
+      "url": "https://aclanthology.org/2026.findings-acl.494/",
+      "scope": "core",
+      "contract": "Online PCA/Oja, crucial full-rank anchors и low-rank промежуточные KV. Статья про Transformer KV; перенос на банки — исследование.",
+      "author_repository": "https://github.com/zzbright1998/OjaKV"
+    },
+    {
+      "id": "D3",
+      "title": "StateX: Enhancing RNN Recall via Post-training State Expansion",
+      "version": "2509.22630v2",
+      "url": "https://arxiv.org/html/2509.22630v2",
+      "scope": "core",
+      "contract": "GLA head merging и post-training; GLA mixer переинициализируется. Paper mode не обещает совпадение initial logits.",
+      "author_repository": "https://github.com/thunlp/StateX"
+    },
+    {
+      "id": "A6",
+      "title": "FG²-GDN: Enhancing Long-Context Gated Delta Networks with Doubly Fine-Grained Control",
+      "version": "2604.19021v3",
+      "url": "https://arxiv.org/html/2604.19021v3",
+      "scope": "deferred",
+      "contract": "Fine-grained β и decay; symmetric erase в Eq.11. Отдельная reference cell; это не просто GDN-2 b/w.",
+      "author_repository": null
+    },
+    {
+      "id": "A7",
+      "title": "Q-Delta: Beyond Key–Value Associative State Evolution",
+      "version": "2606.08804v1",
+      "url": "https://arxiv.org/html/2606.08804v1",
+      "scope": "deferred",
+      "contract": "Eq.17–20: key write, query feedback в residual; λ∈[0,1]. В приложении пропущен outer product write.",
+      "author_repository": null
+    },
+    {
+      "id": "A8",
+      "title": "Preconditioned DeltaNet: Curvature-aware Sequence Modeling for Linear Recurrences",
+      "version": "2604.21100v1",
+      "url": "https://arxiv.org/html/2604.21100v1",
+      "scope": "deferred",
+      "contract": "Exact inverse Gram — theoretical reference; paper implementation использует diagonal recurrence и bounded log-squashed preconditioner Eq.9. Это не OSDN и не CCQ.",
+      "author_repository": "https://github.com/ntumm120/preconditioned-deltanet"
+    }
+  ]
+}
